@@ -1,0 +1,253 @@
+<!doctype html>
+<html class="no-js" lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Digitur</title>
+  <meta name="description" content="Somos una agencia de marketing digital, especializados en turismo y hoteleria.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--favicon-->
+  <link rel="shortcut icon" href="img/icono.png">
+
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+
+  <!--Bootstrap CSS-->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+  integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!--Mi CSS-->
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container-fluid">
+      
+
+      <!-- Cambiar
+        <div class="logo">
+          <h1 class="m-0">Somos Digitur</h1>
+        </div> -->
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="img/digitur_logo (2).jpg"  alt="logo" width="75" height="50" loading="lazy">
+            </a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Paquetes</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Servicios</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Marketing Digital</a>
+                  <a class="dropdown-item" href="#">Community Manager</a>
+                  <a class="dropdown-item" href="#">Consultoria</a>
+                </div>
+              </li>
+              
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Contactanos</button>
+            </form>
+          </div>
+        </nav>
+    </div>
+  </header>
+
+<!-- Separador
+<div class="container-fluid header2">
+    </div>
+<div class="container-fluid slider">
+    <div class="container">
+      
+    </div> -->
+
+
+
+<!--Insertamos Slider o Carousel de Bootstrap-->
+
+<div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2000">
+
+  <!--Indicators, son las flechas de abajo-->
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+
+    <!--Contenidos del Slider o Carousel (son las imagenes)-->
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <a href="formulario.html">
+        <img src="img/slide3.png" class="d-block w-100" alt="Slide1">
+          <div class="carousel-caption d-none d-md-block">
+              <h2 class="slide">Marketing Digital para Destinos, Viajes, Tours </h2>
+              
+          </div>
+      </a>
+    </div>
+  
+    <div class="carousel-item">
+      <a href="">
+        <img src="img/slider-color.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="slide">Covid-19</h2>
+              <p>Estrategias Turisticas en tiempos de Pandemia.</p>
+          </div>
+      </a>
+    </div>
+
+    <div class="carousel-item">
+      <a href="">
+        <img src="img/slide1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="slide">Mas Info</h2>
+              <p>Cositas</p>
+          </div>
+      </a>    
+    </div>
+  </div>
+
+    <!--Cierra el Carousel inner-->
+
+    <!--Controls-->
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
+
+<!-- Contenido, ver clase 15 min 2.42, para poner collapse(botones) -->
+<section id="container-fluid section mt-5">
+  <div>
+    <article class="col-md col-sm-6 articulo">
+        <img src="img/posicion.png" alt=""  class="img-fluid">
+        <h3>Titulo</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        <a href="" class="btn btn-link">ver mas</a>
+    </article>
+  </div>
+  <div>
+    <article class="col-md col-sm-6 articulo">
+        <img src="img/estrategias_web.png" alt="" class="img-fluid">
+        <h3>Titulo</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        <a href="" class="btn btn-link">ver mas</a>
+    </article>
+  </div>
+  <div>
+    <article class="col-md col-sm-6 articulo">
+        <img src="img/mkt_redes.png" alt="" class="img-fluid">
+        <h3>Titulo</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        <a href="" class="btn btn-link">ver mas</a>
+    </article>
+  </div>
+  <div>  
+    <article class="col-md col-sm-6 articulo">
+      <img src="img/busqueda.png" alt="" class="img-fluid">
+      <h3>Titulo</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+      <a href="" class="btn btn-link">ver mas</a>
+    </article>
+  </div>
+</section>
+
+<div class="container-fluid mt-5">
+    <div class="container ads bg-dark">
+        <div class="titulo">
+            <!-- banner -->
+        </div>
+    </div>
+</div>
+
+
+
+<footer class="container">
+  <div class="row">
+    <div class="col-md col-sm-6 text-center">
+      <div class="copyright">
+        2020 - Derechos reservados
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+  <!--
+    <header class="container-fluid header1">
+    <a href=""> <img src="img/digitur_logo.jpg" alt="home"></a>
+    <h1>Bienvenidos a Digitur</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">home</a></li>
+      <li><a href="#">blog</a></li>
+      <li><a href="#">gallery</a></li>
+      <li><a href="#">about</a></li>
+      </ul>
+  </nav>
+  
+
+  <footer>
+    <span>Todos los derechos reservados 2020</span>
+  </footer>
+-->
+
+ 
+
+
+
+
+  <!--Bootstrap JS-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" 
+crossorigin="anonymous"></script>
+
+</body>
+
+</html>
